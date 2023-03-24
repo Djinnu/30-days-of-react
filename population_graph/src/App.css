@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Teko&display=swap');
+
+.container {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 32px;
+}
+
+
+.graph-container {
+  font-size: 24px;
+  letter-spacing: 0;
+  display: grid;
+  grid-template-columns: 180px 600px 200px;
+  grid-template-rows: repeat(11, 1fr);
+  row-gap: 15px;
+  column-gap: 10px;
+}
+
+.bar {
+  background: #ffa500;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.country, .pop {
+  text-align: left;
+}
